@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "dev-ops-ninja:v2"
+const webContent = "dev-ops-ninja:v3 FUNCIONANDO TODA A STACK NO CLUSTER k8S!KKKK MUITO BOM!!! PARABÉNS"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
